@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Flashcard App</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand" href="#page-top">Flashcard App</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,7 +53,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Flashcard Sets</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
@@ -73,68 +73,70 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive" height="400" width="600" src="MyImages/BooksIcon.png" alt="">
                     <div class="intro-text">
-                        <h1 class="name">Start Bootstrap</h1>
+                        <h1 class="name">Flashcard App</h1>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">A Microsoft Exam Ref 70-483 Study App</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
+    <!-- Flashcard Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Choose a Set to Begin</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+                        <img src="MyImages/paper-plane256.png" class="img-responsive" alt="Paper Plane">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
+                        <img src="MyImages/magic-wand256.png" class="img-responsive" alt="Magic Wand">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                </div>
+            <div class="row">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
+                        <img src="MyImages/safe256.png" class="img-responsive" alt="Safe">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="Game controller">
+                        <img src="MyImages/light-bulb256.png" class="img-responsive" alt="Graphs">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <%--<div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -153,7 +155,7 @@
                         </div>
                         <img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
                     </a>
-                </div>
+                </div>--%>
             </div>
         </div>
     </section>
@@ -169,14 +171,16 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
+                    <p>
+                        Flashcard App is a free study aid for C# developers. There are four sets of flashcards based on the four sections of the "Microsoft Programming in C# Exam Ref 70-483" book by Wouter de Kort.
+                    </p>
+                    </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    <p>Whether you're a beginner or seasoned developer, Flashcard App will test and increase your knowledge of the C# language in full. We hope you enjoy Flashcard App. Happy studying!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
+                        <i class="fa fa-download"></i> Get the Mobile App
                     </a>
                 </div>
             </div>
@@ -245,8 +249,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <p>DFW Metroplex</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -269,8 +272,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>About Flashcard App</h3>
+                        <p>Flashcard App is a study aid for Microsoft's Exam 70-483 created by <a href="http://whitneysblog.azurewebsites.net/">Whitney Lampkin</a>.</p>
                     </div>
                 </div>
             </div>
@@ -279,7 +282,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Flashcard App 2017
                     </div>
                 </div>
             </div>
@@ -306,10 +309,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Manage Program Flow</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="MyImages/paper-plane.png" class="img-responsive img-centered" alt="">
+                            <p>This set of flashcards is based on Chapter 1 of "Microsoft Programming in C#: Exam Ref 70-483" by Wouter de Kout. Objectives include: 
+                                Multithreading and asynchronous processing, managing multithreading, implementing program flow, creating and implementing events and handling,
+                                and exception handling.
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -343,11 +349,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Create and Use Types</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
+                            <img src="MyImages/magic-wand.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                This set of flashcards is based on Chapter 2 of "Microsoft Programming in C#: Exam Ref 70-483" by Wouter de Kout. Objectives include: 
+                            </p>
+                                <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
                                     </strong>
@@ -380,10 +388,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Debug Applications and Implement Security</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="MyImages/safe.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                This set of flashcards is based on Chapter 3 of "Microsoft Programming in C#: Exam Ref 70-483" by Wouter de Kout. Objectives include: 
+
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -417,11 +428,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Implement Data Access</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
+                            <img src="MyImages/graphs.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                This set of flashcards is based on Chapter 4 of "Microsoft Programming in C#: Exam Ref 70-483" by Wouter de Kout. Objectives include: 
+                            </p>
+                                <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
                                     </strong>
@@ -442,7 +455,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+   <%-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -515,7 +528,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

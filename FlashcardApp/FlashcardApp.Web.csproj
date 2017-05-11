@@ -211,6 +211,17 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="MyImages\BookPhoto.jpg" />
+    <Content Include="MyImages\BooksIcon.png" />
+    <Content Include="MyImages\graphs.png" />
+    <Content Include="MyImages\light-bulb.png" />
+    <Content Include="MyImages\light-bulb256.png" />
+    <Content Include="MyImages\magic-wand.png" />
+    <Content Include="MyImages\magic-wand256.png" />
+    <Content Include="MyImages\paper-plane.png" />
+    <Content Include="MyImages\paper-plane256.png" />
+    <Content Include="MyImages\safe.png" />
+    <Content Include="MyImages\safe256.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
